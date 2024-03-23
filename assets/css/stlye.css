@@ -1,0 +1,1226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* wrapper start */
+#wrapper {
+    height: 524px;
+    width: 100%;
+    background-image: url("../image/imagehhh.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #000000b5;
+    padding-top: 90px;
+}
+
+/* wrapper end */
+
+/* main box */
+.main_box {
+    display: flex;
+    width: 1140px;
+}
+
+/* main box end *
+
+/* content one start */
+.content_one {
+    align-self: center;
+    margin-left: 200px;
+
+}
+
+/* content one end */
+
+/* title one start */
+.title_one {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 217, 4);
+    position: relative;
+    bottom: 35px;
+}
+
+/* title one end */
+
+/* sub title start */
+.sub_title {
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.sub_title::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background: rgb(250, 213, 4);
+    position: relative;
+    top: 20px;
+}
+
+/* sub title end */
+
+/* button start  */
+.button {
+    font-weight: bold;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+    background: rgb(255, 217, 0);
+    position: relative;
+    top: 70px;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background: rgb(165, 141, 2);
+}
+
+.btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* button end  */
+
+/* detalis start */
+#detalis {
+    font-size: 19px;
+    line-height: 28px;
+    color: white;
+    font-style: normal;
+    position: relative;
+    top: 28px;
+}
+
+/* detalis end */
+
+/* profile start */
+.profile {
+    width: 320px;
+    position: relative;
+    left: 2rem;
+}
+
+/* profile end  */
+
+
+
+/* Container start */
+.Container {
+    height: 530PX;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Container end */
+
+
+/* content start */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-left: 30px;
+    margin-bottom: 9rem;
+}
+
+.content h3 {
+    font-size: 24px;
+    color: rgb(244, 212, 34);
+    position: relative;
+    top: 9;
+}
+
+.content h1 {
+    font-weight: 600;
+}
+
+.content h1::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(234, 200, 4);
+    margin-top: 19px;
+}
+
+.content p {
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(183, 181, 181);
+    line-height: 25px;
+}
+
+/* content end */
+
+
+/* description start */
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 1rem;
+}
+
+.description p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: .1px;
+}
+
+.description button {
+    height: 2.7rem;
+    width: 9rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    background: rgb(238, 203, 4);
+    margin-right: 28px;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#Read:hover {
+    background-color: rgb(150, 130, 17);
+}
+
+/* description end */
+
+
+
+
+/* section start */
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+/* section end */
+
+
+/* tetile_image_one start */
+.title_image_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+    height: 19rem;
+    width: 36rem;
+    background-image: url("../image/name.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(77, 76, 76);
+}
+
+.title_image_one h3 {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+}
+
+.title_image_one h3::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(211, 180, 7);
+    margin-top: 19px;
+}
+
+.title_image_one p {
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+    line-height: 25px;
+}
+
+/* title_image_one end */
+
+
+/* title_image_two start */
+.title_image_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+    height: 19rem;
+    width: 36rem;
+    background-image: url("../image/name-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(77, 76, 76);
+}
+
+.title_image_two h3 {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+}
+
+.title_image_two h3::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    margin-top: 19px;
+}
+
+.title_image_two p {
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    bottom: 22px;
+    line-height: 25px;
+}
+
+/* title_image_two end */
+
+
+/* title_image_there start */
+.title_image_there {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+    height: 19rem;
+    width: 36rem;
+    background-image: url("../image/name-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(77, 76, 76);
+}
+
+.title_image_there h3 {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    margin-left: 20px;
+    bottom: 25px;
+}
+
+.title_image_there h3::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    margin-top: 19px;
+}
+
+.title_image_there p {
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    bottom: 22px;
+    line-height: 25px;
+}
+
+/* title_image_there end */
+
+
+
+
+
+/* hero Container start */
+.hero_Container {
+    display: flex;
+    flex-direction: column;
+    height: 650PX;
+    width: 100%;
+    display: block;
+}
+
+/* hero container end */
+
+/* hero title start */
+.hero_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero_title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    top: 75px;
+}
+
+.hero_title h3 {
+    font-size: 24px;
+    color: rgb(255, 218, 8);
+    position: relative;
+    top: 60px;
+}
+
+h4 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.hero_title h1::after {
+    height: 2.5px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(234, 200, 4);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 44.7rem;
+}
+
+/* hero title end */
+
+/* hero items start */
+.hero_items {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 3rem;
+}
+
+.hero_one {
+    display: flex;
+    position: relative;
+    left: 25rem;
+}
+
+.hero_two {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15rem;
+    right: 23rem;
+}
+
+.hero_items_one {
+    display: flex;
+    height: 20px;
+    width: 14rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    right: 9rem;
+    line-height: 25px;
+}
+
+.hero_items_two {
+    display: flex;
+    height: 20px;
+    width: 14rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    left: 16px;
+    line-height: 25px;
+}
+
+.hero_items_there {
+    display: flex;
+    height: 20px;
+    width: 14rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    left: 180px;
+    line-height: 25px;
+}
+
+.hero_items_four {
+    display: flex;
+    height: 20px;
+    width: 14.6rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+    line-height: 25px;
+}
+
+.hero_items_five {
+    display: flex;
+    height: 5px;
+    width: 14rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+    line-height: 25px;
+}
+
+.hero_items_six {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 14.6rem;
+    flex-direction: column;
+    position: relative;
+    left: 220px;
+    line-height: 25px;
+}
+
+/* hero items end */
+
+/* hero image start */
+.hero_img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 20%;
+    border: 2px solid rgb(222, 186, 2);
+    position: relative;
+    right: 5.4rem;
+    top: 4rem;
+}
+
+/* hero image end */
+
+
+
+
+/* portfolio content start */
+.portfolio_content {
+    width: 100%;
+    height: 800px;
+}
+
+/* portfolio content end */
+
+/* portfolio start  */
+.portfolio {
+    height: 16rem;
+    background-color: rgb(47, 47, 47);
+    display: block;
+}
+
+/* portfolio end  */
+
+
+/* portfolio_title start  */
+.portfolio_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+
+.portfolio_title h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 218, 8);
+    position: relative;
+    top: 1.8rem;
+}
+
+.portfolio_title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 2.8rem;
+}
+
+.portfolio_title h1::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    left: 44.7rem;
+    top: 2rem;
+}
+
+/* portfolio_title end  */
+
+/* portfolio image start */
+.portfolio_image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio_image img {
+    width: 25%;
+}
+
+/* portfolio image end */
+
+
+
+
+/* elvo construction start */
+.elvo_construction {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+/* elvo construction end */
+
+/* elvo image start */
+.elvo_image img {
+    position: relative;
+    top: 8rem;
+    height: 400px;
+    width: 600px;
+}
+
+/* elvo image emd */
+
+/* elvo image start */
+.elvo_title {
+    position: relative;
+    top: 11rem;
+    left: 2rem;
+    padding: 0;
+}
+
+.elvo_title h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 217, 0);
+    position: relative;
+}
+
+.elvo_title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    top: 1.4rem;
+    right: .2rem;
+}
+
+.elvo_title h1::after {
+    height: 2px;
+    width: 5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    top: 1.4rem;
+    left: .3rem;
+}
+
+.elvo_title p {
+    font-size: 17px;
+    line-height: 25px;
+    position: relative;
+    top: 4.5rem;
+}
+
+.elvo_title button {
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    padding: 12px 32px;
+    border: none;
+    background: rgb(238, 203, 4);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#elvo:hover {
+    background-color: rgb(162, 139, 4);
+}
+
+/* elvo tetle end */
+
+
+/* Satisfied_title start  */
+.Satisfied_title {
+    height: 300px;
+    margin-top: 200px;
+}
+
+.Satisfied_sub {
+    height: 5px;
+    width: 100%;
+    background-image: url("../image/IMG-202403.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #000000b5;
+    padding-top: 300px;
+}
+
+.Satisfied_sub {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 400px;
+
+}
+
+.Signed {
+    position: relative;
+    bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 56px;
+}
+
+.Signed h1 {
+    color: rgb(250, 213, 4);
+    padding: 20px;
+}
+
+.Signed p {
+    color: rgb(21, 21, 21);
+}
+
+.Signed p::after {
+    height: 2px;
+    width: 4rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    top: 1.4rem;
+    left: 2.4rem;
+}
+
+/* Satisfied_title end  */
+
+
+.step-by-step-one {
+    width: 100%;
+    height: 550px;
+
+}
+
+
+/* step_by_step start */
+.step_by_step {
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+    width: 100%;
+
+}
+
+.step_step {
+    margin-bottom: 40px;
+}
+
+.step_step h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 218, 8);
+    margin-top: 90px;
+
+}
+
+.step_step h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.step_step h1::after {
+    height: 2px;
+    width: 4.5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    top: 1.4rem;
+    left: 44rem;
+}
+
+/* step_by_step end  */
+
+/* strp to step start  */
+.step-to-step {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon img {
+    margin-top: 20px;
+}
+
+.icon_one img {
+    height: 45px;
+    width: 45px;
+    margin-left: 23px;
+}
+
+.icon_two img {
+    height: 45px;
+    width: 45px;
+    margin-left: 23px;
+}
+
+.icon_three img {
+    height: 45px;
+    width: 45px;
+    margin-left: 23px;
+}
+
+.icon_four img {
+    height: 45px;
+    width: 45px;
+    margin-left: 23px;
+}
+
+.icon h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon p {
+    line-height: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.demo {
+    height: 95px;
+    width: 95px;
+    background: rgb(244, 203, 8);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* step to step end  */
+
+
+
+/* nine one start  */
+.nine-one {
+    height: 260px;
+    width: 100%;
+    background: rgb(44, 44, 44);
+}
+
+.nine-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.nine-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: rgb(244, 203, 8);
+}
+
+.nine-title h1 {
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.nine-title h1::after {
+    height: 2px;
+    width: 4.5rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    top: 1.4rem;
+    left: 45rem;
+}
+
+/* nine one end  */
+
+/* nine menu start */
+.nine-menu {
+    height: 500px;
+    width: 100%;
+    background: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-one-menu {
+    border: 1px solid white;
+    width: 270px;
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+.title-one-menu p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: -9px;
+}
+
+.menu-one {
+    display: flex;
+}
+
+.title-two-menu {
+    border: 1px solid white;
+    width: 270px;
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.title-two-menu p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: -9px;
+}
+
+.title-three-menu {
+    border: 1px solid white;
+    width: 270px;
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.title-three-menu p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: -9px;
+}
+
+.menu-image {
+    margin-top: 40px;
+}
+
+.menu-image h1 {
+    margin-top: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.menu-image h4 {
+    margin-top: 15px;
+    color: rgb(250, 213, 4);
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+/* nine menu emd  */
+
+/* logo-section start  */
+.logo-section {
+    height: 300px;
+    width: 100%;
+    background: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo-one {
+    margin: 30px;
+}
+
+.logo-two {
+    margin: 30px;
+}
+
+.logo-three {
+    margin: 30px;
+}
+
+.logo-four {
+    margin: 30px;
+}
+
+.logo-five {
+    margin: 30px;
+}
+
+.logo-six {
+    margin: 30px;
+}
+
+/* logo-section end  */
+
+
+
+/* eleven-section start  */
+
+.eleven-section {
+    width: 100%;
+    height: 730px;
+}
+
+/* eleven-section end */
+
+/* the blog start */
+.the-blog {
+    text-align: center;
+}
+
+.the-blog h4 {
+    color: rgb(250, 213, 4);
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.the-blog h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.the-blog h1::after {
+    height: 2.8px;
+    width: 4rem;
+    content: "";
+    display: block;
+    background-color: rgb(250, 213, 4);
+    position: relative;
+    top: 1.4rem;
+    left: 45.8rem;
+}
+
+/* the blog end */
+/* great-projects start  */
+
+
+.great-projects {
+    display: flex;
+}
+
+.great-title-one {
+    margin-top: 60px;
+    margin-left: 13rem;
+}
+
+.great-title-one h1 {
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+
+}
+
+.great-title-one p,
+a {
+    line-height: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    letter-spacing: .1px;
+
+}
+
+.maech {
+    margin-top: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.great-title-two {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.great-title-two h1 {
+    margin-top: 25px;
+    font-weight: 400;
+    margin-left: 15px;
+    letter-spacing: 1px;
+
+}
+
+.great-title-two p,
+a {
+    line-height: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    letter-spacing: .1px;
+
+}
+
+.great-title-three {
+    margin-top: 60px;
+    margin-left: 17px;
+}
+
+.great-title-three h1 {
+    margin-top: 25px;
+    font-weight: 400;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+.great-title-three p,
+a {
+    line-height: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    letter-spacing: .1px;
+}
+
+.link {
+    color: black;
+    font-weight: 500;
+    position: relative;
+    top: 35px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+/* great-projects end  */
+
+/* twelve-section start  */
+
+.twelve-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 100%;
+    background: rgb(247, 210, 24);
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 21rem;
+}
+
+.hero-title h1 {
+    font-size: 45px;
+    padding: 10px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero-title p {
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.hero-btn {
+    position: relative;
+}
+
+.hero-btn a {
+    border: 2px solid white;
+    background: transparent;
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    bottom: 85px;
+    left: 30rem;
+    padding: 15px 28px;
+    letter-spacing: 1px;
+}
+
+.hero-btn a:hover {
+    background-color: white;
+}
+
+/* twelve-section end  */
+
+
+
+/* created start */
+.created {
+    height: 96px;
+    width: 100%;
+    background: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created-with {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.created-with h6 {
+    color: white;
+}
+
+.created-with a {
+    color: rgb(247, 210, 24);
+    text-decoration: underline;
+}
+
+/* created end */
