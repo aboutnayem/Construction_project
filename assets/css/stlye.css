@@ -417,8 +417,8 @@ h4 {
     background-color: rgb(234, 200, 4);
     margin-top: 30px;
     margin-bottom: 25px;
-    position: relative;
-    left: 44.7rem;
+    margin: 0  auto;
+    margin-top: 27px;
 }
 
 /* hero title end */
@@ -485,7 +485,7 @@ h4 {
     justify-content: space-between;
     flex-direction: column;
     position: relative;
-    right: 100px;
+    right: 156px;
     line-height: 25px;
 }
 
@@ -496,7 +496,7 @@ h4 {
     justify-content: space-between;
     flex-direction: column;
     position: relative;
-    left: 60px;
+    left: 1px;
     line-height: 25px;
 }
 
@@ -507,7 +507,7 @@ h4 {
     width: 14.6rem;
     flex-direction: column;
     position: relative;
-    left: 220px;
+    left: 150px;
     line-height: 25px;
 }
 
@@ -578,9 +578,8 @@ h4 {
     content: "";
     display: block;
     background-color: rgb(250, 213, 4);
-    position: relative;
-    left: 44.7rem;
-    top: 2rem;
+    margin: 0  auto;
+    margin-top: 27px;
 }
 
 /* portfolio_title end  */
@@ -613,12 +612,10 @@ h4 {
 /* elvo construction end */
 
 /* elvo image start */
-.elvo_image img {
-    position: relative;
-    top: 8rem;
-    height: 400px;
-    width: 600px;
-}
+#elvo {
+        height: 22rem;
+        margin-top: 161px;
+    }
 
 /* elvo image emd */
 
@@ -676,7 +673,7 @@ h4 {
     letter-spacing: 1px;
 }
 
-#elvo:hover {
+#elvo-btn:hover {
     background-color: rgb(162, 139, 4);
 }
 
@@ -780,9 +777,8 @@ h4 {
     content: "";
     display: block;
     background-color: rgb(250, 213, 4);
-    position: relative;
-    top: 1.4rem;
-    left: 44rem;
+    margin: 0  auto;
+    margin-top: 27px;
 }
 
 /* step_by_step end  */
@@ -880,9 +876,8 @@ h4 {
     content: "";
     display: block;
     background-color: rgb(250, 213, 4);
-    position: relative;
-    top: 1.4rem;
-    left: 45rem;
+    margin: 0  auto;
+    margin-top: 27px;
 }
 
 /* nine one end  */
@@ -1046,14 +1041,13 @@ h4 {
     content: "";
     display: block;
     background-color: rgb(250, 213, 4);
-    position: relative;
-    top: 1.4rem;
-    left: 45.8rem;
+    margin: 0  auto;
+    margin-top: 27px;
 }
 
 /* the blog end */
-/* great-projects start  */
 
+/* great-projects start  */
 
 .great-projects {
     display: flex;
